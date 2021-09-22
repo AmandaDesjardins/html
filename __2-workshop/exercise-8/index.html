@@ -1,1 +1,49 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="userName"/>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"/>
+        </form>
+        <h2>Which Taxi do you require?</h2>
+        <form>
+            <input type="radio" id="car" name="car"/>
+            <label for="car">Car</label>
+            <input type="radio" id="van" name="van"/>
+            <label for="van">Van</label>
+            <input type="radio"id="tuk" name="tukTuk"/>
+            <label for="tuk">Tuk Tuk</label>
+        </form>
+        <h2>Choose your extras</h2>
+        <form>
+            <input type="checkbox" id="seat" name="babySeat"/>
+            <label for="seat">Baby Seat</label>
+            <input type="checkbox" id="chair" name="wheelchair"/>
+            <label for="chair">Wheelchair Access</label>
+            <input type="checkbox" id="private" name="privacy"/>
+            <label for="private">Privacy Windows</label>
+        </form>
+        <h2>Where would you like us to pick you up?</h2>
+        <form>
+            <label for="location">Pickup Location:</label>
+            <select name="locations" id="location">
+                <option>Select One</option>
+                <option>Location A</option>
+                <option>Location B</option>
+                <option>Location C</option>
+                <option>Location D</option>
+            </select>
+        </form>
+        <h2>Additional Instructions</h2>
+        <form>
+            <label for="special">Special</label>
+            <textarea id="special" name="special" rows="2" placeholder="provide special instructions here"></textarea>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
